@@ -36,8 +36,6 @@ figure(6)
 plot (car1.data(:,1),car1.data(:,7))
 title("Time(S),A2_Z(g)")
 
-
-%%
 figure(7)%%Plot of Bumper Vibration at Higher RPM
 plot (car2.data(:,1),car2.data(:,2))
 title("Time(S),A1_X(g)")
@@ -47,8 +45,6 @@ title("Time(S),A1_Y(g)")
 figure(9)
 plot (car2.data(:,1),car2.data(:,4))
 title("Time(S),A1_Z(g)")
-
-
 
 figure(10)%Plot of Motor Vibration at Higher RPM
 plot (car2.data(:,1),car2.data(:,5))
